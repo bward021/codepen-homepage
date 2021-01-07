@@ -1,0 +1,156 @@
+/* heading CSS */
+.header {
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+
+}
+
+/* Logo CSS */
+.header > .codepenLogo {
+    display: flex;
+    align-items: left;
+    filter: invert();
+}
+
+.header > .codepenLogo img {
+    width: 120px;
+    height: 100%;
+}
+
+/* explore bar CSS */
+.header > .exploreBar {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.8em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 220px;
+    justify-content: space-between;
+}
+
+.header > .exploreBar > .explore {
+    display: flex;
+    color: #ffff00;
+    opacity: 0.5;
+    align-items: left;
+}
+
+.header > .exploreBar > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* login/sign up CSS */
+.header > .navBar {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.8em;
+    color: white;
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+   
+}
+
+/* Body CSS */
+.body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(black, darkgray);   
+    height: 342px;
+    padding: 80px 90px;
+    font-size: 30px;
+}
+
+/* Left column of the body */
+.body > .leftColumn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 350px;
+}
+
+.body > .leftColumn > .homepageDescription2 {
+    opacity: 50%;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.body > .leftColumn > .bodyNavigation {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    align-items: center;
+    font-size: 15px;
+}
+
+.body > .leftColumn > .bodyNavigation > .forFree { 
+    background-color: #0e6815;
+    color: #cbcbcb;
+    font-size: 30px;
+    width: 178px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.body > .leftColumn > .bodyNavigation > .learnMore { 
+    background-color: #020202;
+    color: #cbcbcb;
+    font-size: 30px;
+    width: 130px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.body > .leftColumn > .bodyNavigation > .space {
+    width: 50px;
+}
+
+/* right column of the body */
+.body > .rightColumn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin-left: 100px;
+}
+
+.body > .rightColumn > .codePenImg {
+    height: 450px;
+    width: 300px;
+}
+
+.body > .rightColumn > .imgDescription {
+    font-size: 13px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+}
+
+/* Footer CSS */
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: snow;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(black, darkgray);
+    padding-bottom: 50px;
+}
+
+.footer > .footerElement {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #404040;
+    padding: 15px 60px;
+    border: 1px solid white;
+}
